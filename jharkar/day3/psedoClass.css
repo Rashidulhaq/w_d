@@ -1,3 +1,4 @@
+      /* hover use kore mouse text er upore nile color change hoye jabe*/        
             .h1:hover{
                 color: rgb(230, 10, 10);
                 font-size: 50px;
@@ -5,6 +6,7 @@
             }
 
 
+  /* input box e mouse e nile focus hobe & text color change hobe */
             input:focus{
                 font-weight: 700;
                 font-size: 20px;
@@ -12,14 +14,36 @@
             }
 
 
-            li:nth-child(2n){
+  /* child er color change kora jabe & class use koreo kora jay & auto increment koreo kora jabe */
+            .l1:nth-child(1){
+                background-color: bisque;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .l4:nth-child(4){
+                background-color: bisque;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .l3:nth-child(3){
                 background-color: bisque;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             }
 
-            a:visited{
+            
+
+ /* kono website visit korle link er color change hoye red hobe autherwise default thakbe */
+            .a1:visited{
                 color: red;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
+            .a2:visited{
+                color: red;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .a3:visited{
+                color: red;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+
 
 
