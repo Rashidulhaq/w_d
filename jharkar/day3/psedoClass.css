@@ -1,12 +1,17 @@
-.h1:hover{
-    color: rgb(230, 10, 10);
-    font-size: 50px;
-    background-color: aquamarine;
-}
+            .h1:hover{
+                color: rgb(230, 10, 10);
+                font-size: 50px;
+                background-color: aquamarine;
+            }
 
 
-input:focus{
-    font-weight: 700;
-    font-size: 20px;
-    color: green;
-}
+            input:focus{
+                font-weight: 700;
+                font-size: 20px;
+                color: green;
+            }
+
+
+            li:nth-child(3){
+                background-color: bisque;
+            }
